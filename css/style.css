@@ -6,29 +6,32 @@
 }
 
 /**style for the buttons*/
-.list button{
+.tab button{
     padding:10px 15px ;
     margin: 0px  3px;
-
 background-color: white;
 color:rgb(44, 40, 40) ;
 border: none;
 font-size: medium;
 
 }
-
 button:hover{
     cursor: pointer;
     background-color: rgb(31, 61, 151);
     color: white;
     border-radius: 4px;
 }
-
-/**style for the empty div */
-#pm{
+button:focus{
+    background-color:rgb(31, 61, 151) ;
+    color: white;
+}
+/**style for the  dives of the content */
+.btncontent{
+   display: none;
     margin-top: 40px;
   padding-left: 10px;
   font-size: large;
    
 }
+
 

@@ -12,17 +12,30 @@
                 <h1>Tabs pill</h1>
             </div>
             <!---these are four buttons when you clic on it itis show a message -->
-            <div class="list">
-               <button id="btn1"> Home</button>
-              <button id="btn2">  Profile</button>
-              <button id="btn3"> Messages</button>
-                <button id="btn4">Settings</button>
+                <div class="tab">
+                    <button class="tapslink" onclick="openbtn(event, 'hom')">Home</button>
+                    <button class="tapslink" onclick="openbtn(event, 'Prof')">Profile</button>
+                    <button class="tapslink" onclick="openbtn(event, 'Mess')">Messages</button>
+                    <button class="tapslink" onclick="openbtn(event, 'Sett')">Settings</button>
 
-            </div>
-            <!--this is empty div to show the result-->
-            <div id="pm">
-          
-            </div>
+                  </div>
+         
+            <!--this is  div to show the result-->
+            <div id="hom" class="btncontent">
+                <p>This is Home content</p>
+                      </div>
+
+                      <div id="Prof" class="btncontent">
+                        <p>This is Profile content</p>
+                              </div>
+
+                              <div id="Mess" class="btncontent">
+                                <p>This is Messages content</p>
+                                      </div>
+
+                                      <div id="Sett" class="btncontent">
+                                      <p>This is Settings content</p>
+                                              </div>
             <script src="js/script.js"></script>
         </body>
    
